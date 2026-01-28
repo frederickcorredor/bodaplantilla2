@@ -346,6 +346,9 @@ footer {
   padding: 24px;
   background: radial-gradient(circle at 20% 20%, rgba(194, 163, 108, 0.18), transparent 40%), radial-gradient(circle at 80% 60%, rgba(194, 163, 108, 0.12), transparent 45%);
   backdrop-filter: blur(6px);
+  background-image: url(assets/img/marcodorado.webp);
+  background-size: cover;
+  background-position: center;
 }
 
 .intro-card{
@@ -1237,5 +1240,6 @@ footer {
 }
 .section.dark .verse-quote{ color: var(--text-light); }
 .section.dark .verse-ref{ color: rgba(255,255,255,0.72); }
+
 
 
