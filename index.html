@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Nuestra Boda</title>
+<!-- Google Fonts -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&amp;family=Montserrat:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="intro-overlay" id="intro-overlay"><div class="intro-card">  <!-- INVITADO -->
+<section class="section reveal" id="guest">
+  <div class="guest-card">
+ 
+
+    <h2 class="guest-title">
+      Querid@ <span id="guest-name" class="guest-name">Invitado</span>
+    </h2>
+
+    <p class="guest-text">
+      Nos encantaría que nos acompañes en este día tan especial.
+    </p>
+
+    <div class="guest-divider" aria-hidden="true"></div>
+
+   <!-- <p class="guest-note">
+      Guarda esta invitación y compártela solo con quien corresponda 💛
+    </p>-->
+  </div>
+</section><button class="btn enter-btn" id="enter-btn">Ver invitación</button></div></div>
+<div aria-hidden="true" id="hearts-rain"></div>
+<div class="is-hidden" id="page-content"><header class="hero">
+<div class="hero-overlay"></div>
+<div class="hero-content">
+<p class="hero-subtitle2">Nos Casamos</p>
+<h1 class="hero-title">Ana &amp; Carlos</h1>
+<p class="hero-date">06 · Junio · 2026</p>
+
+<p class="">
+  Con inmensa alegría, queremos invitarte a compartir con nosotros uno de los días más importantes de nuestras vidas:
+</p>
+<span class="hero-subtitle">Nuestra Boda.</span>
+
+
+<audio id="bg-music" loop="" src="assets/music/thousandyears.mpeg"></audio>
+</div>
+<button id="music-btn" style="position: fixed;bottom: 24px;right: 16px;z-index: 100;">🎵 Música</button>
+</header><main>
+
+
+
+
+
+<!-- PASAJE BÍBLICO -->
+<section class="section reveal" id="verse">
+  <div class="verse-card">
+    <!--<div class="verse-orn" aria-hidden="true">✦</div>-->
+
+    <blockquote class="verse-quote">
+      Uno solo puede ser vencido, pero dos pueden resistir.
+      <span class="verse-break">¡La cuerda de tres hilos no se rompe fácilmente!</span>
+    </blockquote>
+
+    <p class="verse-ref">Eclesiastés 4:12</p>
+  </div>
+</section>
+
+
+
+<!-- ITINERARIO -->
+<section class="section reveal" id="itinerary">
+  <h2 class="it-title">Itinerario</h2>
+  
+
+
+  <div class="timeline" aria-label="Itinerario del evento">
+
+
+    <article class="t-item" style="--d:0ms">
+<img src="assets/img/anillos.webp" alt="" class="icono">
+      <div class="t-card">
+        <div class="t-top">
+          <h3>Ceremonia</h3>
+          <span class="t-time">4:00 PM</span>
+          
+        </div>
+        <span class="sitio">Nombre Iglesia</span>
+      </div>
+    </article>
+
+    <article class="t-item" style="--d:120ms">
+<img src="assets/img/brindis.webp" alt="" class="icono">
+      <div class="t-card">
+        <div class="t-top">
+          <h3>Recepción</h3>
+          <span class="t-time">6:00 PM</span>
+        </div>
+        <span class="sitio">Nombre Iglesia</span>
+      </div>
+    </article>
+
+    <article class="t-item" style="--d:240ms">
+<img src="assets/img/bailebodas.webp" alt="" class="icono">
+      <div class="t-card">
+        <div class="t-top">
+          <h3>Fiesta</h3>
+          <span class="t-time">8:00 PM</span>
+        </div>
+        <span class="sitio">Nombre Iglesia</span>
+      </div>
+    </article>
+  </div>
+
+  <!-- REGALOS -->
+<section class="section" id="gifts">
+<h2>Lluvia de sobres</h2>
+<p>Tu presencia es el mejor regalo…
+pero si insistes en consentirnos un poquito más, la lluvia de sobres será recibida con una gran sonrisa</p>
+</section>
+</section>
+
+<!-- DRESS CODE -->
+<section class="section dark reveal" id="dresscode">
+  <div class="dress-card">
+    
+
+    <h2>Código de vestimenta</h2>
+    <p class="dress-sub">
+      Queremos que te sientas increíble <br> (y que las fotos queden espectaculares).
+    </p>
+
+    <div class="dress-grid">
+          <div class="dress-chips" aria-label="Recomendaciones">
+      <span class="chip">🤵 Formal</span>
+      <span class="chip">🤍 Evitar blanco</span>
+    </div>
+      
+
+      <div class="dress-box" style="  grid-column-start: 1;grid-column-end: 3;">
+        <p>Tonos sobrios o neutros. Evita blanco (reservado para la novia).</p>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+<!-- GALERÍA -->
+<section class="section" id="gallery">
+  <h2>Nuestros momentos</h2>
+
+  <div class="carousel" id="carousel">
+    <button class="carousel-btn prev" type="button" aria-label="Anterior">‹</button>
+
+    <div class="carousel-track" id="carouselTrack">
+      <div class="slide"><img src="assets/img/carrusel1.webp" alt="Foto 1"></div>
+      <div class="slide"><img src="assets/img/carrusel2.webp" alt="Foto 2"></div>
+      <div class="slide"><img src="assets/img/carrusel3.webp" alt="Foto 3"></div>
+      <div class="slide"><img src="assets/img/carrusel4.webp" alt="Foto 4"></div>
+    </div>
+
+    <button class="carousel-btn next" type="button" aria-label="Siguiente">›</button>
+  </div>
+
+  <div class="carousel-dots" id="carouselDots" aria-label="Controles del carrusel"></div>
+</section>
+
+<!-- COUNTDOWN -->
+<section class="section dark reveal" id="countdown">
+  <h2 class="cd-title">Falta poco para el gran día</h2>
+
+  <!-- Mini calendario (se genera con JS) -->
+<div class="mini-cal" id="mini-cal" aria-label="Calendario del mes del matrimonio"></div>
+
+<img src="assets/img/anillos.webp" alt="" class="anillos">
+
+  <!-- Countdown -->
+  <div class="countdown-container cd-box">
+    <div><span id="days">00</span><small>Días</small></div>
+    <div><span id="hours">00</span><small>Horas</small></div>
+    <div><span id="minutes">00</span><small>Min</small></div>
+  </div>
+
+  <h2>Confirma tu asistencia</h2>
+<button class="btn" id="open-rsvp" type="button">Confirmar asistencia</button>
+</section>
+
+
+<!-- UBICACIÓN 
+<section class="section dark" id="location">
+<h2>Ubicación</h2>
+
+<div class="map-wrap">
+<iframe allowfullscreen="" class="gmap" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.826053133538!2d-74.072092!3d4.7110!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a0a0a0a0a0%3A0x0000000000000000!2sBogot%C3%A1%2C%20Colombia!5e0!3m2!1ses!2sco!4v0000000000000" style="border:0;" title="Mapa ubicación" width="600"></iframe>
+</div>
+</section>-->
+
+<!-- RSVP -->
+<section class="section dark" id="rsvp">
+
+</section>
+</main><div aria-hidden="true" class="modal" id="rsvp-modal">
+<div class="modal-overlay" data-close="true"></div>
+<div aria-labelledby="rsvp-title" aria-modal="true" class="modal-card" role="dialog">
+<button aria-label="Cerrar" class="modal-close" data-close="true" type="button">✕</button>
+<h3 id="rsvp-title">Confirma tu asistencia</h3>
+<p class="modal-sub">Completa tus datos para confirmar.</p>
+<form class="modal-form" id="rsvp-form" novalidate="">
+<label>
+          Nombre
+          <input id="rsvp-name" name="name" placeholder="Tu nombre" required="" type="text"/>
+</label>
+<label>
+          Email
+          <input id="rsvp-email" name="email" placeholder="tucorreo@ejemplo.com" required="" type="email"/>
+</label>
+<label>
+          WhatsApp
+          <input id="rsvp-whatsapp" name="whatsapp" placeholder="Ej: 3001234567" required="" type="tel"/>
+</label>
+<button class="btn btn-full" type="submit">Asistiré</button>
+</form>
+<p class="modal-success" hidden="" id="rsvp-success">
+        ¡Gracias! Tu confirmación fue enviada. 💛
+      </p>
+</div>
+</div><footer>
+<p>Con amor, Ana &amp; Carlos ❤️</p>
+</footer></div>
+
+<!-- HERO -->
+
+
+<!-- MODAL RSVP -->
+
+
+<script src="main.js"></script>
+</body>
+</html>
