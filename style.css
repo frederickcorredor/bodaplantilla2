@@ -907,7 +907,18 @@ footer {
   z-index:0;
 }
 
-#dresscode > *{ position: relative; z-index: 1; }
+#dresscode > *{ position: relative; z-index: 1; aspect-ratio: 9/6.5;}
+
+.dress-grid{
+  width: min(980px, 40%);
+  margin: 0 auto;
+  display: grid;
+  gap: 14px;
+  grid-template-columns:50px 40vw;
+  margin-top: 24px;
+  text-align: left;
+  align-items: center;
+}
 
 .dress-title{
   margin-top: 14px;
@@ -922,9 +933,23 @@ footer {
   line-height: 1.5;
   opacity: 0.9;
   color: rgba(255,255,255,0.88);
+  
 }
 
+.traje, .vestido{
+  height:50vw;
+  position: absolute;
+  transition: transform .4s ease;
+  bottom: 6px;
+}
 
+.traje{
+    left: 38px;
+}
+
+.vestido{
+    left: -50px;
+}
 
 #gallery{
   background-image: url(assets/img/marcodorado.webp);
